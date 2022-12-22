@@ -20,6 +20,8 @@ username: Situational Awareness
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: SnT | ARG
 
+websiteARG: https://wwwfr.uni.lu/snt/research/automation_robotics_research_group
+
 # ABSTRACT SECTION
 show_abstract_card: true
 abstract_title: Lorem Ipsum
