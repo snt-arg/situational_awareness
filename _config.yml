@@ -1,7 +1,7 @@
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: Situational Awareness 
-sub_title: Automation Research Group
+sub_title: Automation and Robotics research Group
 title_home: Home
 markdown: kramdown
 theme: jekyll-theme-minimal
@@ -19,7 +19,6 @@ username: Situational Awareness
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: SnT | ARG
-
 
 # ABSTRACT SECTION
 show_abstract_card: true
