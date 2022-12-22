@@ -1,0 +1,66 @@
+# GENERAL SITE SETTINGS
+# title: This will be displayed as the website's name in your browser tab.
+title: Situational Awareness 
+sub_title: Automation Research Group
+title_home: Home
+markdown: kramdown
+theme: jekyll-theme-minimal
+# description: This will be meta HTML tag content. This can be ignored.
+description: Situational Awareness reasearch works
+# baseurl: The subpath of your site
+# > set this to "", if you renamed the repository to <user>.github.io
+url: https://snt-arg.github.io
+baseurl: /situational_awareness
+
+additional_pages: false
+# LANDING PAGE
+# username: This will displayed on the landing page as your name.
+username: Situational Awareness 
+# typing_text: This will be typed before 'scroll down for more'.
+# > set this to your job title, e.g. Fullstack Developer
+typing_text: SnT | ARG
+
+video: false
+
+# ABSTRACT SECTION
+show_abstract_card: true
+abstract_title: Lorem Ipsum
+abstract_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed libero tristique, commodo neque tincidunt, finibus magna. Sed ac lacinia turpis, nec scelerisque justo. Maecenas tristique scelerisque eros, ut congue nibh. Etiam vitae vestibulum diam. Praesent ullamcorper ac libero et sollicitudin. Cras placerat, diam vitae hendrerit posuere, turpis magna elementum est, vitae scelerisque massa ipsum quis metus. Vestibulum ut est nunc. Nam sem dui, consectetur nec risus eget, dapibus convallis enim. Nulla facilisi."
+
+# PROJECTS SECTION
+# show_projects_card:
+# > setting this to true, will display the Projects section
+# > setting this to false, will omit the Projects section
+show_projects_card: true
+# show_projects:
+# > setting this to true, will display your listed projects in _data/projects.yml
+# > setting this to false, will omit your listed projects
+show_projects: true
+# projects_title: The will be displayed as the title of your projects
+projects_title: Research Works
+
+# GITHUB-METADATA
+# Set this to your forked repository
+# > e.g. <user>/<user>.github.io
+repository: ""
+
+# CITATION 
+citation: false
+citation_title: Citation
+# Footer
+enable-footer: true
+
+### END OF VALUES YOU SHOULD CHANGE ###
+
+plugins:
+  - "jekyll-github-metadata"
+
+exclude:
+  [
+    "_assets",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "node_modules",
+    "package.json",
+  ]

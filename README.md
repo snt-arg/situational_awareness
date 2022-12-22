@@ -1,1 +1,1 @@
-# situational_awareness
+Repository containing the situational awareness projects.
