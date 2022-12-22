@@ -1,7 +1,7 @@
 # GENERAL SITE SETTINGS
 # title: This will be displayed as the website's name in your browser tab.
 title: Situational Awareness 
-sub_title: Automation and Robotics research Group
+sub_title: Automation and Robotics Research Group
 title_home: Home
 markdown: kramdown
 theme: jekyll-theme-minimal
