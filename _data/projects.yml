@@ -13,11 +13,45 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: S-Graphs+
-  descr: "Real-time Localization and Mapping leveraging Hierarchical Representations"
+- name: S-Graphs+ <br> Real-time Localization and Mapping leveraging Hierarchical Representations
+  pubdate: 2022/11/16
+  descr: "3D scene graphs represent the environment in an efficient graphical format of nodes and edges representing different geometric elements with suitable semantic attributes and
+relational constraints with other elements. Nevertheless, existing 
+methods do not efficiently couple the scene graph with the
+SLAM graph generating it, to simultaneously improve in real-
+time the metric estimate of the robot pose or its map estimate. In
+this direction, we present an evolved version of the Situational
+Graphs (dubbed S-Graphs+), which jointly models in a single
+optimizable graph a set of robot keyframes as well as the high-
+level representations of the environment.<br><br>
+S-Gaphs+ is a four-layered optimizable graph that includes:(1) a keyframes layer in which robot poses are estimated, (2)
+a walls layer consisting of all the registered wall planes, (3) a
+rooms layer constraining the mapped wall planes, and (4) a floors
+layer encompassing the rooms within a given floor level. To efficiently represent rooms and
+floors we present novel room and floor segmentation algorithms
+utilizing the mapped wall planes and free-space clusters. We
+test S-Graphs+ on simulated datasets representing distinct indoor
+environments, on real datasets captured on several construction
+sites and office environments, and on a public dataset captured
+in indoor office environments. S-Graphs+ outperforms relevant
+baselines in the majority of the datasets, while extending the
+robot situational awareness by a four-layered scene model."
   github_username: snt-arg/s_graphs_docker
   paper_link: https://arxiv.org/abs/2211.08754
   youtube_link: https://www.youtube.com/watch?v=cXH_LzCn2_E
   website_link: https://snt-arg.github.io/s_graphs_docker/
-  tags:
-    - tag: TBD
+
+- name: Robot Localization using Situational Graphs and Building Architectural Plans
+  pubdate: 2022/9/23
+  descr: "Robots in the construction industry can reduce costs through constant monitoring of the work progress, using high precision data capturing. Accurate data capturing requires precise localization of the mobile robot within the environment. In this paper we present our novel work on robot localization which extracts geometric, semantic as well as the topological information from the architectural plans in the form of walls and rooms, and creates the topological and metric-semantic layer of the Situational Graphs (S-Graphs) before navigating in the environment. When the robot navigates in the construction environment, it uses the robot odometry and the sensorial observations in the form of planar walls extracted from the 3D lidar measurements, to estimate its pose relying on a particle filter method, by exploiting the previously built situational graph and its available geometric, semantic and topological information. We validate our approach in both simulated and real datasets captured on actual on-going construction sites presenting state-of-the-art results when comparing it against traditional geometry based localization techniques."
+  paper_link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=qnisbnUAAAAJ&cstart=20&pagesize=80&citation_for_view=qnisbnUAAAAJ:mVmsd5A6BfQC
+
+- name: "Visual SLAM: What Are the Current Trends and What to Expect?"
+  pubdate: 2022/1
+  descr: "In recent years, Simultaneous Localization and Mapping (SLAM) systems have shown significant performance, accuracy, and efficiency gain. In this regard, Visual Simultaneous Localization and Mapping (VSLAM) methods refer to the SLAM approaches that employ cameras for pose estimation and map reconstruction and are preferred over Light Detection And Ranging (LiDAR)-based methods due to their lighter weight, lower acquisition costs, and richer environment representation. Hence, several VSLAM approaches have evolved using different camera types (eg, monocular or stereo), and have been tested on various datasets (eg, Technische Universität München (TUM) RGB-D or European Robotics Challenge (EuRoC)) and in different conditions (ie, indoors and outdoors), and employ multiple methodologies to have a better understanding of their surroundings. The mentioned variations have made this topic popular for researchers and have resulted in various methods. In this regard, the primary intent of this paper is to assimilate the wide range of works in VSLAM and present their recent advances, along with discussing the existing challenges and trends. This survey is worthwhile to give a big picture of the current focuses in robotics and VSLAM fields based on the concentrated resolutions and objectives of the state-of-the-art. This paper provides an in-depth literature survey of fifty impactful articles published in the VSLAMs domain. The mentioned manuscripts have been classified by different characteristics, including the novelty domain, objectives, employed algorithms, and semantic level."
+  paper_link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=qnisbnUAAAAJ&cstart=20&pagesize=80&citation_for_view=qnisbnUAAAAJ:9ZlFYXVOiuMC
+
+- name: "From SLAM to Situational Awareness: Challenges and Survey"
+  pubdate: 2021/10/1
+  descr: "The knowledge that an intelligent and autonomous mobile robot has and is able to acquire of itself and the environment, namely the situation, limits its reasoning, decision-making, and execution skills to efficiently and safely perform complex missions. Situational awareness is a basic capability of humans that has been deeply studied in fields like Psychology, Military, Aerospace, Education, etc., but it has barely been considered in robotics, which has focused on ideas such as sensing, perception, sensor fusion, state estimation, localization and mapping, spatial AI, etc. In our research, we connected the broad multidisciplinary existing knowledge on situational awareness with its counterpart in mobile robotics. In this paper, we survey the state-of-the-art robotics algorithms, we analyze the situational awareness aspects that have been covered by them, and we discuss their missing points. We found out that the existing robotics algorithms are still missing manifold important aspects of situational awareness. As a consequence, we conclude that these missing features are limiting the performance of robotic situational awareness, and further research is needed to overcome this challenge. We see this as an opportunity, and provide our vision for future research on robotic situational awareness."
+  paper_link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=qnisbnUAAAAJ&citation_for_view=qnisbnUAAAAJ:M3ejUd6NZC8C
